@@ -1,0 +1,110 @@
+.bg{
+    width:100%;
+    height:100%;
+    background:url("../img/aboutUS.jpg") no-repeat;
+    overflow:hidden;
+    position:relative;
+    background-size:cover;
+}
+.bg_bg{
+    width:100%;
+    height:100%;
+    background-color: rgba(56,48,37,0.3);
+    overflow:hidden;
+    padding-bottom:175px;
+}
+.bg_mark{
+    max-width:1180px;
+    margin:100px auto 0 auto;
+    padding:80px 50px;
+    background:#000;
+    opacity:.2;
+}
+.bg_mark_header{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.bg_mark_header img{
+    width:226px;
+    height:32px;
+}
+.bg_mark_header span{
+    color:#fff;
+}
+.bg_mark_header span:nth-child(2){
+    color:#fff;
+    font-size:58px;
+}
+.bg_size{
+    padding-top:10px;
+    margin-top:20px;
+}
+.bg_size p{
+    color:#fff;
+}
+/*team*/
+.team{
+    width:100%;
+    height:100%;
+    padding-bottom:95px;
+}
+.team_parson{
+    max-width:1024px;
+    height:100%;
+    margin:0 auto;
+}
+.show{
+    padding-bottom:27px
+}
+.show p{
+    padding-bottom:0;
+}
+.person{
+    display:flex;
+}
+.person dl{
+    padding: 0 5px;
+    width:25%;
+}
+.person dl dt img{
+    width:100%;
+    display:block;
+}
+.person dd{
+    height:115px;
+    text-align:center;
+    line-height:115px;
+}
+.person_dd{
+    display:none;
+}
+
+@media screen and (max-width:992px){
+    .person{
+        flex-direction:column;
+    }
+    .person dl{
+        width:100%;
+        padding:0;
+    }
+    .footer_con_more{
+        display:none;
+    }
+    .person_dd{
+        display:block;
+    }
+    .person_dd_One{
+        display:none;
+    }
+    .show{
+        padding-top:20px;
+    }
+    .show h1{
+        font-size:18px;
+        font-weight:100;
+    }
+    .team{
+        padding-bottom: 75px;
+    }
+}

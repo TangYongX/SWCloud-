@@ -1,0 +1,151 @@
+.serve{
+    width:100%;
+    height:auto;
+    background:url("../img/serve.jpg") no-repeat;
+    background-size:cover;
+}
+.serve_bg{
+    width:100%;
+    height:auto;
+    background:#000;
+    opacity:.3;
+}
+.serve_con{
+    padding:158px 45px 162px 45px;
+    text-align:center;
+}
+.serve_con img{
+    width:226px;
+    height:32px;
+}
+.serve_con span{
+    font-size:36px;
+    color:#fff;
+}
+.serve_con span:nth-child(2){
+    font-size:58px;
+}
+/*succeed*/
+.succeed_con .succeed_show{
+    height:100%;
+    padding-bottom:8px;
+}
+/*banner*/
+.banner{
+    width:100%;
+    height:auto;
+    padding:100px 0;
+}
+.banner_change{
+    max-width:942px;
+    height:auto;
+    margin:0 auto;
+}
+.banner_One{
+    display:flex;
+}
+.banner_pic{
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content:flex-end;
+    position:relative;
+    overflow:hidden;
+}
+.banner_pic img{
+    display:block;
+    width:100%;
+    height:100%;
+    margin-left:70px;
+    overflow:hidden;
+}
+.banner_letter{
+    width:50%;
+    height:auto;
+}
+.banner_letter{
+    padding:0px 0 0px 100px;
+}
+.banner_letter p:first-child{
+    padding:10px 0 36px 0;
+    border-bottom:1px solid #e0e0e0;
+}
+.banner_letter p:last-child{
+    padding-top:36px;
+}
+.banner_pic::after{
+    content:'MORE';
+    font-size:12px;
+    width:180px;
+    height:40px;
+    line-height:40px;
+    position:absolute;
+    top:18px;
+    left:0;
+    background: #232323;
+    color:#fff;
+    text-align:center;
+}
+/*domain*/
+.domain{
+    width:100%;
+    height:auto;
+    background:#f2f2f2;
+}
+.domain_bottom{
+    max-width:1280px;
+    height:auto;
+    margin:0 auto;
+    display:flex;
+    padding-bottom:80px;
+}
+.domain_bottom dl{
+   flex:1;
+    height:auto;
+    text-align:center;
+    padding:20px;
+}
+.domain_bottom dd span{
+    display:block;
+    padding-top:20px;
+    margin-bottom:5px;
+    color:#ef4f19;
+    font-size:18px;
+    line-height:24px;
+}
+.domain_bottom dd p{
+    font-size:12px;
+    color:#A9A9A9;
+}
+@media screen and (max-width:992px){
+    .banner{
+        padding:0;
+    }
+    .banner_One{
+        flex-direction:column;
+    }
+    .banner_pic{
+        width:100%;
+    }
+    .banner_pic::after{
+        display:none;
+    }
+    .banner_pic img{
+        margin-left:0;
+    }
+    .banner_letter{
+        padding:0;
+    }
+    .banner_letter p:last-child{
+        padding-bottom:5px;
+    }
+    .show{
+        padding:30px 30px
+    }
+    .domain_bottom{
+        flex-direction:column;
+    }
+    .footer_con_size{
+        display:none;
+    }
+}

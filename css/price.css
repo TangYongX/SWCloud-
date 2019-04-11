@@ -1,0 +1,139 @@
+.bgpic{
+    width:100%;
+    height:auto;
+    background:url("../img/pricePic.jpg") no-repeat;
+    background-size:cover;
+}
+.bgpic_pic{
+    max-width:1024px;
+    height:auto;
+    margin:0 auto;
+    padding-top:134px;
+    padding-bottom:30px;
+}
+.bgpic_h1{
+    text-align:center;
+}
+.bgpic_h1 p{
+    padding:30px 0 40px 0;
+}
+.bg_pic{
+    display:flex;
+    padding-top:20px;
+}
+.bgpic_con{
+    flex:1;
+    padding-bottom:20px;
+    margin: 0 10px;
+    background:#fff;
+}
+.pic_header{
+    background:#e5e5e5;
+}
+.OnePerson{
+    font-size:24px;
+    color:#333;
+    text-align:center;
+    letter-spacing:2px;
+    padding:30px 0 10px 0;
+}
+.onclick{
+    font-size:15px;
+    color:#696969;
+    text-align:center;
+    padding:2px 0 23px 0;
+}
+.pic_bottom{
+    background:#fff;
+    text-align:center;
+}
+.pic_bottom li{
+    text-align:center;
+    color:#696969;
+    font-size:14px;
+    line-height:3em;
+}
+.pic_bottom li:first-child{
+    font-size:20px;
+}
+.money{
+    font-size:40px;
+}
+.pic_bottom .try{
+    display:inline-block;
+    font-size:18px;
+    padding:10px 60px;
+    color:rgb(239,79,25);
+    border:1px solid rgb(239,79,25);
+    border-radius:5px;
+    text-align:center;
+    margin:20px 0;
+}
+.pic_bottom .buy{
+    display:block;
+    color:rgb(238,79,25);
+    padding-bottom:10px;
+}
+.bgpic_con:first-child{
+    margin-top:49px;
+    margin-bottom:34px;
+}
+.bgpic_con:last-child{
+    margin-top:49px;
+    margin-bottom:34px;
+}
+.pic_header_t{
+    background-color: #ef4f19;
+}
+.pic_header_t li{
+    color:#fff;
+}
+/*introduce*/
+.introduce{
+    width:100%;
+    height:auto;
+}
+.introduce_mid{
+    max-width:1024px;
+    height:auto;
+    margin: 0 auto;
+
+}
+.introduce_con{
+    display:flex;
+    border-top:1px solid #d6d6d6;
+}
+.introduce_left .show{
+    padding:145px 0 0 0;
+}
+.introduce_left h1{
+    text-align:left;
+}
+.introduce_left .liner{
+    text-align:left;
+    margin:20px auto 4px 0;
+}
+.introduce_left p{
+    text-align:left;
+}
+.introduce_right{
+    padding:100px 0 60px 86px;
+}
+.cer{
+    padding:100px 86px 60px 0;
+}
+@media screen and (max-width:992px){
+    .bg_pic{
+        flex-direction:column;
+        padding:1px 15px 27px;
+    }
+    .bgpic_pic{
+        padding-bottom:0;
+    }
+    .introduce{
+        display:none;
+    }
+    .footer_con_more{
+        display:none;
+    }
+}
